@@ -52,7 +52,7 @@ export function ShowPost() {
         if (component.type === "relation") {
             return <Row>
                 {(component.value as PostReference[]).map((postReference, i) =>
-                    <Col xs={3} key={i}><PostReferencePreview reference={postReference}/></Col>
+                    <Col md={6} lg={3} key={i} className="mb-2"><PostReferencePreview reference={postReference}/></Col>
                 )}
             </Row>
         } else if (component.type === "boolean") {

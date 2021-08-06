@@ -3,8 +3,8 @@
 }
 
 .ShowPost .component-string .headline, .ShowPost .component-string [data-custom-field-headline] {
-    font-size: 4em;
-    margin-bottom: 2em;
+    font-size: 2em;
+    margin-bottom: 1em;
     border-bottom: thin solid black;
 }
 .ShowPost .component-boolean .trusted::before,
