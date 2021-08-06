@@ -1,0 +1,12 @@
+version: '3.3'
+services:
+  client:
+    image: node:16.6-alpine
+    ports:
+      - "3003:3000"
+    working_dir: /app
+    command: npm start
+    environment:
+      HOST: 0.0.0.0
+    volumes:
+      - .:/app
